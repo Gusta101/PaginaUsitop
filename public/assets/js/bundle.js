@@ -25,7 +25,7 @@ function formSubmit(e) {
   var fields = getEmailAndCelphone(formInputs);
   var isValid = verifyInputs(fields, form);
   if (isValid) {
-    form.submit();
+    alert('Enviado com sucesso');
   }
 }
 function getEmailAndCelphone(formInputs) {
