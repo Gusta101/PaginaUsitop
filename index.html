@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- FONTS -->
+    <!-- Conexão Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;900&display=swap"
+        rel="stylesheet" />
+
+    <!-- League Spartan -->
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&display=swap" rel="stylesheet" />
+
+    <!-- Oxygen -->
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&family=Oxygen&display=swap"
+        rel="stylesheet" />
+    <title>Usitop - Home</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white shadow">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="public\assets\img\usitop-3.png" alt="Logomarca da Usitop" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CORPO -->
+    <div class="container-fluid px-0">
+        <!-- CAROUSEL -->
+        <div id="carouselCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="public/assets/img/molde3.jpeg" class="d-block w-100" />
+                    <div class="carousel-caption d-none d-md-block montserrat">
+                        <h1 class="league-spartan display-3 fw-bold">
+                            Uma empresa pronta<br />para suas nescessidades
+                        </h1>
+                        <p>
+                            Peças em série, moldes, matrizes e outros projetos de
+                            usinagem...<br />estamos prontos pra tudo!
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="public/assets/img/molde1.jpg" class="d-block w-100" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="league-spartan display-3 fw-bold">
+                            Moldes de compressão<br />unicavidade
+                        </h1>
+                        <p>Menos desperdício e mais precisão na sua produção!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="public/assets/img/molde2.jpg" class="d-block w-100" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="league-spartan display-3 fw-bold">
+                            Detalhes únicos que<br />transformam o produto
+                        </h1>
+                        <p>
+                            Compromisso com a qualidade e a precisão em nossos
+                            moldes de compressão!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev prev-teste1" type="button" data-bs-target="#carouselCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next next-teste1" type="button" data-bs-target="#carouselCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- HERO 1 - SOBRE NÓS -->
+        <div class="px-4 py-5 my-5 text-center">
+            <img class="d-block mx-auto mb-4" src="public/assets/img/icone_escuro_g.png" height="80" />
+            <h1 class="display-5 fw-bold text-body-emphasis montserrat">
+                Sobre nós
+            </h1>
+            <div class="col-10 col-lg-6 mx-auto">
+                <p class="lead mb-4">
+                    A Usitop Usinagem e Ferramentaria é uma empresa experiente que
+                    está no mercado para atender seus clientes de maneira
+                    satisfatória, viabilizando o custo-benefício com a máxima
+                    qualidade nos serviços prestados.
+                </p>
+            </div>
+        </div>
+
+        <!-- HERO 2 - MISSÃO E VALORES -->
+        <div class="py-5 mb-5 text-center" id="bg-container-green">
+            <div class="container">
+                <div class="row text-light">
+                    <div class="col-12 col-xl-6 mt-3 my-xl-3">
+                        <img class="d-block mx-auto mb-4" id="value" src="public/assets/icons/value.svg" height="80" />
+                        <h1 class="display-5 fw-bold montserrat">Nossos valores</h1>
+                        <div class="col-10 col-lg-8 mx-auto">
+                            <p class="mb-4">
+                                Nossas relações são baseadas em: qualidade, melhoria
+                                continua, comprometimento, transparência, confiança,
+                                cooperação, integridade, inovação e
+                                sustentabilidade.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-6 mt-5 my-xl-3">
+                        <img class="d-block mx-auto mb-4" src="public/assets/icons/mission.svg" height="80" />
+                        <h1 class="display-5 fw-bold montserrat">Nossa missão</h1>
+                        <div class="col-10 col-lg-8 mx-auto">
+                            <p class="mb-4">
+                                Satisfazer as necessidades do mercado com serviços e
+                                produtos de qualidade e alta tecnologia, destinados
+                                a usinagem em geral, proporcionando rentabilidade e
+                                respeitando sempre o indivíduo, a sociedade e o meio
+                                ambiente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD CAROUSEL -->
+        <h1 class="text-center montserrat-700 mx-3">Nossas especialidades</h1>
+        <div class="container my-5">
+            <!-- LINHA 1 -->
+            <div class="row d-flex justify-content-center">
+                <!-- CARD 1 -->
+                <div class="col-12 col-sm-12 col-lg-8 col-xl-6">
+                    <div class="card mb-3 ">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="public/assets/img/molde-compressao.jpg" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8 d-flex align-items-center">
+                                <div class="card-body">
+                                    <h3 class="card-title fw-bolder">Moldes de Compressão</h3>
+                                    <hr class="col-8 card-hr" />
+                                    <p class="card-text">Desenvolvemos moldes de alta qualidade, cuidando de cada etapa
+                                        do
+                                        processo, desde o projeto 3D até a confecção, com ajustes para garantir a
+                                        excelência dos
+                                        nossos serviços.</p>
+                                    <hr class="col-8 card-hr" />
+                                    <a class="btn" href="produtos.html" style="margin: 0; padding: 0;">
+                                        <p class="card-text"><small class="text-body-secondary">Saiba mais</small></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="col-12 col-sm-12 col-lg-8 col-xl-6">
+                    <div class="card mb-3 my-sm-3 my-xl-0">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="public/assets/img/matriz_card2.jpeg" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8 d-flex align-items-center">
+                                <div class="card-body">
+                                    <h3 class="card-title fw-bolder">Matriz de Extrusão</h3>
+                                    <hr class="col-8 card-hr" />
+                                    <p class="card-text">Oferecemos matrizes de extrusão de borracha personalizadas,
+                                        feitas com
+                                        materiais de alta qualidade e tecnologia avançada, garantindo precisão,
+                                        acabamento impecável
+                                        e desempenho confiável.</p>
+                                    <hr class="col-8 card-hr" />
+                                    <a class="btn" href="produtos.html" style="margin: 0; padding: 0;">
+                                        <p class="card-text"><small class="text-body-secondary">Saiba mais</small></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LINHA 2 -->
+            <div class="row my-3 d-flex justify-content-center">
+                <!-- CARD 3 -->
+                <div class="col-12 col-sm-12 col-lg-8 col-xl-6">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="public/assets/img/eletroerosao.jpeg" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8 d-flex align-items-center">
+                                <div class="card-body">
+                                    <h3 class="card-title fw-bolder">Eletro-erosão</h3>
+                                    <hr class="col-8 card-hr" />
+                                    <p class="card-text">Realizamos corte de formas complexas, furos de alta precisão,
+                                        acabamentos de alta qualidade e usinagem de pequenos lotes e protótipos,
+                                        garantindo resultados superiores.</p>
+                                    <hr class="col-8 card-hr" />
+                                    <a class="btn" href="produtos.html" style="margin: 0; padding: 0;">
+                                        <p class="card-text"><small class="text-body-secondary">Saiba mais</small></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="col-12 col-sm-12 col-lg-8 col-xl-6">
+                    <div class="card mb-3 my-sm-3 my-xl-0">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="public/assets/img/usinagem-em-serie.jpeg" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8 d-flex align-items-center">
+                                <div class="card-body">
+                                    <h3 class="card-title fw-bolder">Usinagem em Série</h3>
+                                    <hr class="col-8 card-hr" />
+                                    <p class="card-text">Oferecemos diversos serviços de usinagem, como torneamento,
+                                        fresamento, furação, retificação e tratamentos térmicos, com equipamentos
+                                        modernos para garantir qualidade e precisão.</p>
+                                    <hr class="col-8 card-hr" />
+                                    <a class="btn" href="produtos.html" style="margin: 0; padding: 0;">
+                                        <p class="card-text"><small class="text-body-secondary">Saiba mais</small></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HERO MENSAGEM -->
+    <div class="p-4 mt-5 text-right col-lg-6 w-100" id="hero-message">
+        <h1 class="display-5 fw-bold text-body-emphasis montserrat" id="text-color">
+            Precisa de uma solução?<br />Entre em contato!
+        </h1>
+        <form action="contato.html" method="get">
+            <button type="button submit" class="btn btn-lg w-50 my-3 col-12" id="btn-message">
+                Envie uma mensagem
+            </button>
+        </form>
+    </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="mt-3 text-white">
+        <!-- TOP FOOTER -->
+        <div class="container-fluid" id="top-footer">
+            <div class="pt-0" id="bg-image">
+                <div class="container">
+                    <!-- Lista de acesso às páginas -->
+                    <ul class="list-group-flush pt-5">
+                        <li class="list-group-item">
+                            <a class="link-light link-underline-opacity-0 link-underline-opacity-75-hover" href="/">
+                                <img src="public/assets/icons/home_icon.svg" alt="Home" class="me-3" />Página inicial
+                            </a>
+                        </li>
+                        <li class="list-group-item mt-3">
+                            <a class="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                href="produtos.html">
+                                <img src="public/assets/icons/shopping_bag_icon.svg" alt="ícone de Produtos"
+                                    class="me-3" />Produtos
+                            </a>
+                        </li>
+                        <li class="list-group-item mt-3">
+                            <a class="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                href="contato.html">
+                                <img src="public/assets/icons/telephone_icon.svg" alt="Telefone" class="me-3" />Contatos
+                            </a>
+                        </li>
+                        <li class="list-group-item mt-3">
+                            <a class="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                href="sobre.html">
+                                <img src="public/assets/icons/user_icon.svg" alt="Icone de Usuário" class="me-3" />Sobre
+                                nós
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Meios de contato -->
+                    <div class="row justify-content-evenly mt-5">
+                        <div class="col-md-3 col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="public/assets/icons/map_icon.svg" alt="Mapa" class="icon-45" />
+                                </div>
+                                <div class="col-9">
+                                    <h6>Endereço</h6>
+                                    <p>Avenida 52, 1212 |</p>
+                                    <p>CEP: 13504-070 |</p>
+                                    <p>Jardim Portugal - Rio Claro, SP</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12 my-3">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="public/assets/icons/e-mail_icon.svg" alt="letter" class="icon-45" />
+                                </div>
+                                <div class="col-9">
+                                    <h6>Email</h6>
+                                    <p>dpinheiro@usitop.com.br</p>
+                                    <p>gpinheiro@usitop.com.br </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="public/assets/icons/cellphone_icon.svg" alt="cellphone" class="icon-45" />
+                                </div>
+                                <div class="col-9">
+                                    <h6>Fale Conosco</h6>
+                                    <p>
+                                        <img src="public/assets/icons/phone_white_icon.svg" alt="Fone branco"
+                                            class="icon-13" />(19) 99696-2953
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- BOTTOM FOOTER -->
+        <div class="container-fluid pt-5 pb-3" id="bottom-footer">
+            <p class="smallest-footer-text text-center mb-0">©2023 - 2024. Usitop - Usinagem e Ferramentaria
+                Ltda.<br>Todos os
+                direitos reservados</p>
+            <p class="text-center mt-3">Desenvolvido por <strong>Ark Web Creations</strong></p>
+        </div>
+    </footer>
+
+    <script src="public/assets/js/bundle.js"></script>
+</body>
+
+</html>
